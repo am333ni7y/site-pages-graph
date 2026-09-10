@@ -1,6 +1,13 @@
-__pycache__
+__pycache__/
 *.pyc
 _env/
+.venv/
+env/
+venv/
 .vscode/
 *.code-workspace
-site-pages-graph/output/*
+output/*
+!output/.gitkeep
+.pytest_cache/
+.DS_Store
+._*
